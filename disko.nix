@@ -41,7 +41,6 @@
                   "@log" = { mountpoint = "/var/log"; };
                   "@snapshots" = { mountpoint = "/snapshots"; };
                 };
-                extraArgs = [ "compress=zstd" "noatime" ];
               };
             };
           };
