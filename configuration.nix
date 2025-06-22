@@ -3,7 +3,7 @@
 {
   # Imports
   imports = [
-    # ./hardware-configuration.nix
+    ./hardware-configuration.nix
     ./disko.nix
     ./users.nix
     ./desktop.nix
